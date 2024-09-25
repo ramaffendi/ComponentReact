@@ -20,7 +20,7 @@ class ClassComponent extends React.Component {
 
         return (
             <div>
-                <h1>ini dibuat dengan class komponen</h1>
+                <h1>ini dibuat dengan saya class komponen</h1>
                 <h2>Haii {this.props.nama}</h2>
                 <button onClick = {this.handleMinus}>-</button>
                 <span>{" "}{this.state.value}{" "}</span>
